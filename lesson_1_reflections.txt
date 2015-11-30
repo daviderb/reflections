@@ -1,0 +1,15 @@
+While I'm long familiar with using diff tools to find potential bugs, it was interesting
+to see the use of diff -u, which I had forgotten about. I think that's probably the
+default diff that perforce uses, because it looks familiar. Anyway, I should learn the diff
+options.
+How could having easy access to the entire history of a file make me a more efficient
+programmer in the long run? Several ways. I might dislike some set of changes and choose to revert them. I might need to explore how code evolved to better understand its purpose. I
+might be able to find the individual who made a change I don't understand or agree with
+in order to communicate with her. I might binary search to find the CL at which a given bug
+was introduced. I'm sure there are more.
+An auto-commit system might make sense, but it would require a lot of language understanding.
+For example, you usually don't want to commit a version that won't compile.
+It's nice to work with an editor that tracks all of your changes and has unlimited undo.
+It's also nice not to lose your work, even if something catastrophic happens.
+On the other hand, semantically meaningful commits require the programmer to choose the
+commit point.
