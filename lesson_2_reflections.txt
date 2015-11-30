@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+You create the .git directory with all of its initial contents, which includes an empty
+repository (a repository with no commits).
